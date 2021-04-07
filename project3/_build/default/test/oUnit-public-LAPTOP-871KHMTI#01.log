@@ -1,0 +1,12 @@
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Start test public:0:nfa_accept.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Test public:0:nfa_accept is successful.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: End test public:0:nfa_accept.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Start test public:2:nfa_move.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Test public:2:nfa_move is successful.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: End test public:2:nfa_move.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Start test public:3:nfa_to_dfa.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Test public:3:nfa_to_dfa is successful.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: End test public:3:nfa_to_dfa.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Start test public:6:nfa_new_trans.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: Test public:6:nfa_new_trans is successful.
+2020-10-27T03:24:15+00:00 LAPTOP-871KHMTI#01 I: End test public:6:nfa_new_trans.
