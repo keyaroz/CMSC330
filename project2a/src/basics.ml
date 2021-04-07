@@ -61,11 +61,11 @@ let func lst1 lst2 =
     | h::t -> (match lst2 with
                 |h2::t2 -> (match t2 with 
                     |h3::t3 -> (h, h2, h3)
-                    |[] -> failwith " can't "
+                    |[] -> failwith " Cannot "
                 )
                 
     )
-    |_-> failwith " can't "
+    |_-> failwith " Cannot "
 ;;
 
 (*****************)
@@ -73,7 +73,7 @@ let func lst1 lst2 =
 (*****************)
 
 
- let rec get idx lst =       (*get idx index of list*)      (* DONE *)
+ let rec get idx lst =       (*get index of list*)     
             match lst with
             |[] -> failwith "Out of bounds"
             |h::t-> if idx = 0 then h
@@ -81,7 +81,7 @@ let func lst1 lst2 =
 ;; 
 
 
-let larger lst1 lst2 =                  (*DONE*)
+let larger lst1 lst2 =
     let rec length lst =
         match lst with
         |[]-> 0
@@ -93,14 +93,14 @@ let larger lst1 lst2 =                  (*DONE*)
 ;;
 
 
-let reverse lst =                            (* DONE *)
+let reverse lst =                  
     let rec helper l newlst = 
         match l with
         |[] -> newlst
         |h::t -> helper t (h::newlst) in helper lst []
 ;;
 
-let rec combine lst1 lst2 =                  (* DONE *)
+let rec combine lst1 lst2 =
     match lst1 with
     |[]-> lst2
     |h::t-> h::combine t lst2
